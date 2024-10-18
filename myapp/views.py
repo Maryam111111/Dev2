@@ -5,8 +5,8 @@ from django.shortcuts import render
 def index(request):
     return render (request, 'index.html')
 
-def records(request):
-    return render (request, 'records.html')
+def Shopping_car (request):
+    return render (request, 'Shopping_car.html')
 
-def contacts(request):
-    return render (request, 'contacts.html')
+def checkout(request):
+    return render (request, 'checkout.html')
